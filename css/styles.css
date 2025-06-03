@@ -4,7 +4,6 @@ body {
   font-size: 16px;
   line-height: 1.75;
   color: #22343d;
-  background-color: gray;
 }
 
 text {
@@ -44,6 +43,26 @@ button {
   border: none;
   font-family: inherit;
   cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-sign-in {
+  border-radius: 4px;
+  min-width: 105px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-sign-up {
+  background-color: #02897a;
+  border: 1px solid #02897a;
+  min-width: 113px;
+  border-radius: 4px;
+  color: #fffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 img {
@@ -90,6 +109,7 @@ img {
   background-color: transparent;
   text-align: center;
   padding: 0;
+  color: #fff;
 }
 
 .nav-list {
@@ -112,4 +132,65 @@ img {
 
 .current {
   font-weight: 600;
+}
+
+.hero {
+  margin-right: 35px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  line-height: 60px;
+  max-width: 452px;
+  margin-bottom: 18px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 156%;
+  max-width: 462px;
+  margin-bottom: 45px;
+}
+
+.hero-btn-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  min-width: 164px;
+  margin-bottom: 112px;
+}
+
+.hero-btn-item-start {
+  border: 1px solid #02897a;
+  background-color: #02897a;
+  border-radius: 4px;
+}
+
+.get-started {
+  background-color: #02897a;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  padding: 15px 41px;
+}
+
+.watch-video {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  background-color: transparent;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-img-container {
+  max-width: 610px;
 }
