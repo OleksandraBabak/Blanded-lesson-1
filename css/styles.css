@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.75;
   color: #22343d;
+  background-color: #727272;
 }
 
 text {
@@ -39,6 +40,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 button {
   border: none;
   font-family: inherit;
@@ -47,26 +52,21 @@ button {
 }
 
 .btn-sign-in {
-  border-radius: 4px;
+  /* border-radius: 4px;
   min-width: 105px;
   text-align: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16px; */
 }
 
-.btn-sign-up {
-  background-color: #02897a;
+.sign-up-btn {
+  /* background-color: #02897a;
   border: 1px solid #02897a;
   min-width: 113px;
-  border-radius: 4px;
-  color: #fffff;
-  text-align: center;
   font-weight: 600;
   font-size: 16px;
-}
-
-img {
-  display: block;
+  border-radius: 4px;
+  color: #fffff; */
 }
 
 .logo-container {
@@ -105,11 +105,11 @@ img {
 }
 
 .btn-sign-in {
-  border: 1px solid #bcd0e5;
+  /* border: 1px solid #bcd0e5;
   background-color: transparent;
   text-align: center;
   padding: 0;
-  color: #fff;
+  color: #fff; */
 }
 
 .nav-list {
@@ -162,13 +162,13 @@ img {
   margin-bottom: 112px;
 }
 
-.hero-btn-item-start {
+.hero-get-started {
   border: 1px solid #02897a;
   background-color: #02897a;
   border-radius: 4px;
 }
 
-.get-started {
+.hero-get-started {
   background-color: #02897a;
   font-weight: 700;
   font-size: 16px;
@@ -176,7 +176,7 @@ img {
   padding: 15px 41px;
 }
 
-.watch-video {
+.hero-watch-video {
   font-weight: 600;
   font-size: 16px;
   text-decoration: underline;
